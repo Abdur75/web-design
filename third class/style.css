@@ -1,0 +1,21 @@
+body{
+    /*background-image: url("image/b3.jpg");*/
+}
+.first{
+    color: yellowgreen;
+}
+.button{
+    color: aqua;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: fantasy;
+}
+.b1{
+   /* background-color: #BB8FCE;*/
+    border: 10px solid purple;
+    padding: 4px 8px ;
+    color: chocolate;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 20px;
+}
