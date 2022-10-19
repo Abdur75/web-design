@@ -1,0 +1,68 @@
+.first{
+    color:red;
+    opacity: 0.5;
+}
+.text-effect1{
+    width: 1000px;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+.text-effect2 p{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid gray;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.breakall p{
+    width: 200px;
+    border: 1px solid gray;
+    text-align: left;
+    /*word-break: break-all;*/
+    word-break: keep-all;
+
+}
+.wordwrap p{
+    width: 200px;
+    border: 1px solid gray;
+    word-wrap: break-word;
+}
+.horizonal{
+    border: 1px solid red;
+}
+#p1{
+    writing-mode: horizontal-tb;
+    border: 2px solid red;
+}
+#p2{
+    writing-mode: vertical-lr;
+    border: 2px solid red;
+}
+#p3{
+    writing-mode: vertical-rl;
+    border: 2px solid red;
+}
+.tool-tips{
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px dotted black;
+}
+.tool-tips h4{
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.tool-tips:hover h4{
+    visibility: visible;
+}
+.clip-path img{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 46%, 0% 0%);
+}
